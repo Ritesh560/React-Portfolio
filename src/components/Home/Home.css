@@ -1,0 +1,70 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url(../../img/back2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20%;
+}
+
+.intro {
+  color: white;
+  margin: 5% 0% 0% 12%;
+  padding: 0%;
+  font-size: 200%;
+  font-weight: lighter;
+}
+
+.name {
+  color: rgb(252, 85, 8);
+  font-weight: bold;
+  font-size: 140%;
+}
+
+.container2 {
+  display: flex;
+}
+
+.intro {
+  width: 50%;
+}
+
+.btn {
+  font-size: 150%;
+  border: 2px solid black;
+  border-radius: 5%;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(27, 248, 57);
+  border: 2px solid gold;
+}
+
+.profilePic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.picbox img {
+  height: 280px;
+  width: 280px;
+  border: 5px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 50% 20%;
+}
+.picbox img:hover {
+  cursor: pointer;
+  border: 5px solid white;
+  width: 300px;
+  height: 300px;
+  transition: ease-out 1s;
+  margin: 45% 20%;
+}

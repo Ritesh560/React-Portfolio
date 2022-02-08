@@ -1,0 +1,19 @@
+.about {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border: 2px solid black;
+  background: linear-gradient(to top right, yellow 0%, red 100%);
+  margin: 5% 0%;
+  padding: 5%;
+}
+
+.about-me p {
+  margin: 5%;
+}
+
+.pic img {
+  width: 65%;
+  margin-left: 40%;
+  object-fit: cover;
+  border-radius: 10%;
+}
